@@ -320,12 +320,12 @@ VERBOSITY_SILENT = 0
 
 MIN_DELAY = 0.5     # Minimum delay between frames during capture
 FPS = 30            # Frames Per Second of target video
-FAST_CAPTURE = 60   # fast capture of frames for the last N seconds of the print
+FAST_CAPTURE = 45   # fast capture of frames for the last N seconds of the print
 
 #
 # Parse parameters from the command line
 #
-cliParser = argparse.ArgumentParser(description='Continiously listen for prints on an UM3, then create time '
+cliParser = argparse.ArgumentParser(description='Continuously listen for prints on an UM3, then create time '
                                                 'lapse videos of each print')
 cliParser.add_argument('--ip', nargs='?', type=str, default='192.168.1.158',
                        help='IP address of the Ultimaker')
