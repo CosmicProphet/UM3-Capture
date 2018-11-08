@@ -4,7 +4,7 @@ Capture time-lapse videos using Ultimaker 3 apis. Inspired by https://github.com
 * Automatically captures frames at the rate needed to create a timelapse video of the target duration (20s by default)
 * Output files are auto-named based on the print job name
 * Videos are encoded in the background allowing the script to capture timelapses of back-to-back printing
-* Behaves responsibly if the printer goes off-line, automatically resuming when it comed back on-line
+* Behaves responsibly if the printer goes off-line, automatically resuming when it comes back on-line
 * Lot's of configuration options
 ## Usage
 |Option|Description|Default|
