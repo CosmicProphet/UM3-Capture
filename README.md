@@ -8,7 +8,7 @@ server that I could run on a Raspberry Pi and have it automagically generate tim
 a folder on my Synology NAS. 
 
 * Identifies when the target printer is on-line and printing, then captures a new time lapse video for every print
-* Automatically caluclates and captures frames at the rate needed to create a video of the target
+* Automatically calculates and captures frames at the rate needed to create a video of the target
 duration (20s by default)
 * Video files are auto-named based on the print job name
 * Videos are encoded in the background allowing the script to capture and encode videos during back-to-back printing
@@ -17,10 +17,10 @@ duration (20s by default)
 
 ## Usage
 
-python3 um3capture 192.168.1.153
+python3 um3capture -ip 192.168.1.153
 Continuously listens to the UM3 at 192.168.1.153, creates videos about 20s long for every print, saves them in /tmp folder
 
-python3 um3capture HOST -t /synology/um3videos -d 40
+python3 um3capture -ip 192.168.1.153 -t /synology/um3videos -d 40
 Continuously listens to the UM3 at 192.168.1.153, creates videos about 40s long for every print, saves them in /synology/um3videos folder
 
 ### Options
