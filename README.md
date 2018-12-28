@@ -17,10 +17,10 @@ duration (20s by default)
 
 ## Usage
 
-python3 um3capture -ip 192.168.1.153
+python3 um3capture --ip 192.168.1.153
 Continuously listens to the UM3 at 192.168.1.153, creates videos about 20s long for every print, saves them in /tmp folder
 
-python3 um3capture -ip 192.168.1.153 -t /synology/um3videos -d 40
+python3 um3capture --ip 192.168.1.153 -t /synology/um3videos -d 40
 Continuously listens to the UM3 at 192.168.1.153, creates videos about 40s long for every print, saves them in /synology/um3videos folder
 
 ### Options
